@@ -48,6 +48,11 @@ public:
 	}
 };
 
+void Func(String str_new)
+{
+	str_new.Show_Str();
+}
+
 int main()
 {
 
