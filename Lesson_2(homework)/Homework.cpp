@@ -55,7 +55,14 @@ void Func(String str_new)
 
 int main()
 {
+	String str(10);
+	str.Show_Str();
+	str.Enter_Str();
+	str.Show_Str();
+	Func(str);
 
+	String temp = str;
+	temp.Show_Str();
 
 	return 0;
 }
